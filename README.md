@@ -51,7 +51,7 @@
    - Restart the VM.
 
 ### Configure OpenVAS to Perform First Unauthenticated Scan against our Vulnerable VM
-<img width="730" alt="image" src="https://github.com/joshmadakor1/openvas/assets/39254979/8b3ca917-86d7-404c-94f6-b6402d391af4">
+<img width="730"  alt="image" src="https://github.com/joshmadakor1/openvas/assets/39254979/8b3ca917-86d7-404c-94f6-b6402d391af4">
 
 1. Login to OpenVAS and navigate to Assets > Hosts > New Host.
 2. Add the Client VM PRIVATE IP Address.
@@ -97,9 +97,9 @@
 11. Save.
 
 ### Execute Credentialed Scan against our Vulnerable Windows VM
-<img width="1126" alt="image" src="https://github.com/joshmadakor1/openvas/assets/39254979/83467078-e917-4eba-9757-745fe47b4ebf">
+<img width="1126" alt="image" src="https://i.postimg.cc/DwgWDTH9/vm2.png">
 
-<img width="861" alt="image" src="https://github.com/joshmadakor1/openvas/assets/39254979/3b5cf494-829c-4eb0-bcfd-6d4372c97cd6">
+<img src="https://i.postimg.cc/3JDmLNXW/111.png" height="400%" width="400%">
 
 1. Within Greenbone / OpenVAS, go to Scans > Tasks.
 2. CLONE the "Scan - Azure Vulnerable VMs" Task and Edit it.
@@ -117,7 +117,7 @@
 4. Re-initiate the "Scan - Azure Vulnerable VMs - Credentialed" scan and observe the results.
 
 ### Verify Remediations
-<img width="1120" alt="image" src="https://github.com/joshmadakor1/openvas/assets/39254979/9efbd193-002a-49c2-9d9e-51f2cf1dc2af">
+<img width="1120" alt="image" src="https://i.postimg.cc/bY6dQh4r/sssss.png">
 
 1. Note that there are no longer Vulnerabilities for FireFox, VLC Player, or Adobe Reader!
 
